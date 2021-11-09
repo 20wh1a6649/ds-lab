@@ -47,6 +47,8 @@ int main(){
     }
 
     }
+/*
+  1.
     INPUT:
     Enter number of elements : 3
     Enter elements in sorted order : 1 45 67
@@ -55,4 +57,14 @@ int main(){
     OUTPUT:
     Element is found at 3
     
+  2.
+  
+    INPUT:
+    Enter number of elements : 5
+    Enter elements in sorted order : 23 45 67 89 99
+    Element to be searched : 12
     
+    OUTPUT:
+    Element is not found
+
+*/    
