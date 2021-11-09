@@ -36,7 +36,7 @@ int main(){
 
 
 }
-
+/*
 1.
 INPUT:
 Enter size : 5
@@ -55,3 +55,4 @@ Element to be searched : 10
 OUTPUT:
 Element is not found
 
+*/
