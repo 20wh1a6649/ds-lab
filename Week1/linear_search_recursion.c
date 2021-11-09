@@ -35,7 +35,7 @@ int main(){
 
     }
 }
-'''
+/*
 1.
 INPUT:
 Enter number of elements : 5
@@ -53,4 +53,4 @@ Enter element to be found : 99
 
 OUTPUT:
 Element not found
-'''
+*/
