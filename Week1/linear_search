@@ -37,7 +37,7 @@ int main(){
 
 }
 
-
+1.
 INPUT:
 Enter size : 5
 Enter 5 elements : 3 56 45 34 77
@@ -45,3 +45,13 @@ Element to be searched : 45
 
 OUTPUT:
 Element found at 3.
+
+2.
+INPUT:
+Enter size : 5
+Enter 5 elements : 17 9 4 7 3
+Element to be searched : 10
+
+OUTPUT:
+Element is not found
+
