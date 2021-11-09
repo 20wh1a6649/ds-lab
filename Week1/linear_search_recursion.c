@@ -35,6 +35,8 @@ int main(){
 
     }
 }
+'''
+1.
 INPUT:
 Enter number of elements : 5
 12 56 78 37 33
@@ -42,3 +44,13 @@ Enter element to be found : 12
 
 OUTPUT:
 Element is found at 1.
+    
+2.
+INPUT:
+Enter number of elements : 6
+12 25 36 48 78 89 
+Enter element to be found : 99
+
+OUTPUT:
+Element not found
+'''
