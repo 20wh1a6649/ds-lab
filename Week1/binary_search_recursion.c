@@ -48,10 +48,20 @@ int main(){
     }
 
     }
-    
+   /* 
+   1.
     INPUT:
     Enter number of elements : 7
     Enter elements in sorted order : 12 13 14 15 16 17 18 
     Element to be searched : 14
     OUTPUT:
     Element is found at 3
+   2.
+   INPUT:
+   Enter number of elements : 6
+   Enter elements in sorted order : 12 34 56 78 79 80
+   Element to be searched : 81
+   OUTPUT:
+   Element is not found
+
+*/
