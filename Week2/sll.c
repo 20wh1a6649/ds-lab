@@ -209,3 +209,250 @@ int main(){
 			}
 
 }
+/*
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 1
+Enter no of nodes : 5
+Enter node data : 34
+Enter node data : 1
+Enter node data : 56
+Enter node data : 78
+Enter node data : 2
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+34->1->56->78->2->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 2
+Element to be inserted : 15
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+15->34->1->56->78->2->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 3
+Element to be inserted : 55
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+15->34->1->56->78->2->55->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 4
+Enter position and ele : 3 999
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+15->34->999->1->56->78->2->55->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 5
+Deleted element : 15
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+34->999->1->56->78->2->55->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 6
+Deleted Element : 55
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+34->999->1->56->78->2->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 7
+Position where element is to be deleted : 3
+Delted element : 1
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+34->999->56->78->2->NULL
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 9
+2->78->56->999->34-> 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 10
+Enter key : 78
+Element found at 4
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 12
+
+
+*/
