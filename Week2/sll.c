@@ -126,23 +126,22 @@ int search(struct node* head, int key){
 		return -1;
 }
 
-//struct node* sort(struct node* head){
-void sort(struct node* head){
-       struct node* temp = head;
-		int x;
+struct node* sort(struct node* head){
+	temp = head;
+       	int x;
 		while(temp != NULL){
-			temp1 = head;
+			temp1 = temp -> link;
 			while(temp1 != NULL){
-				if(temp1 -> data > temp1 -> link->data){
-					x = temp1 -> data;
-					temp1 -> data = temp1 -> link -> data;
-					temp1 -> link-> data = x;
+				if(temp -> data > temp1 ->data){
+					x = temp -> data;
+					temp -> data = temp1 -> data;
+					temp1 -> data = x;
 				}
 				temp1 = temp1 -> link;
 				}
 				temp = temp -> link;
 				}
-//				return head;
+				return head;
 }
 
 int main(){
@@ -199,7 +198,7 @@ int main(){
 						}
 				    break;
 				case 11:
-//					head = sort(head);
+					head = sort(head);
 					sort(head);
 					break;
 				case 12:
@@ -452,6 +451,21 @@ Element found at 4
  10 : search
  11 : sort
  12 : exit
+ Enter choice : 11
+ 1 : create
+ 2 : insert_begin
+ 3 : inser_end
+ 4 : insert_pos
+ 5 : delete_begin
+ 6 : delete_end
+ 7 : delete_pos
+ 8 : display
+ 9 : reverse display
+ 10 : search
+ 11 : sort
+ 12 : exit
+Enter choice : 8
+2->34->56->78->999->NULL
 Enter choice : 12
 
 
