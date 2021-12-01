@@ -93,3 +93,95 @@ int main(){
 
     }
 }
+
+/*
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 1
+Enter element to be pushed : 50
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 1
+Enter element to be pushed : 49
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 1
+Enter element to be pushed : 48
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 1
+Enter element to be pushed : 47
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 1
+Enter element to be pushed : 46
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 4
+46
+47
+48
+49
+50
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Deleted element is 46
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 4
+47
+48
+49
+50
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 3
+Top element is 47
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 4
+47
+48
+49
+50
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 5
+
+
+
+*/
