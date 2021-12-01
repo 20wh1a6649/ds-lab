@@ -175,13 +175,49 @@ Enter your choice : 4
 48
 49
 50
+
+Enter your choice : 1
+Enter element to be pushed : 47
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Deleted element is 47
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Deleted element is 48
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Deleted element is 49
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Deleted element is 50
+1 : push
+2 : pop
+3 : peek
+4 : display
+5 : exit
+Enter your choice : 2
+Stack Under flow
 1 : push
 2 : pop
 3 : peek
 4 : display
 5 : exit
 Enter your choice : 5
-
-
 
 */
