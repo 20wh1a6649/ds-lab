@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define size 5
+
 struct node{
 	    int data;
 	    struct node *prev;
@@ -163,3 +163,75 @@ int main(){
 		  }
 }
 
+/*
+OUTPUT:
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+1
+Enter number of nodes : 5
+12 23 34 45 56
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+12 <-> 23 <-> 34 <-> 45 <-> 56 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+3
+22
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+22 <-> 12 <-> 23 <-> 34 <-> 45 <-> 56 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+4
+0
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+22 <-> 12 <-> 23 <-> 34 <-> 45 <-> 56 <-> 0 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+5
+3 38
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+22 <-> 12 <-> 38 <-> 23 <-> 34 <-> 45 <-> 56 <-> 0 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+6
+deleted element 22
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+12 <-> 38 <-> 23 <-> 34 <-> 45 <-> 56 <-> 0 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+7
+Deleted element is 0
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+2
+Elements are:
+12 <-> 38 <-> 23 <-> 34 <-> 45 <-> 56 <-> NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+8
+4
+Deleted data 34
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+9
+Elements are :
+56<->45<->23<->38<->12<->NULL
+1- create  2- display 3 - insert_begin 4 - insert_end 5-insert_pos 6 - delete_begin  7 - delete_end  8 - delete_pos 9 - reverse_display 10 - exit
+enter your choice:
+10
+
+*/
