@@ -26,11 +26,11 @@ struct node* create() {
 			else if(cur -> data < temp -> data && temp -> left != NULL){
 				temp = temp -> left;
 			}
-			else if(cur -> data > temp -> data && temp -> right == NULL) {
+			else if(cur -> data >= temp -> data && temp -> right == NULL) {
 				temp -> right = cur;
 				return root;
 			}
-			else if (cur -> data > temp -> data && temp -> right != NULL) {
+			else if (cur -> data >= temp -> data && temp -> right != NULL) {
 				temp = temp -> right;
 			}
 		}
